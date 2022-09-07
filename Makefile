@@ -150,7 +150,18 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_sleep\
-	$U/_pingpong
+	$U/_pingpong\
+	$U/_copy\
+	$U/_echo\
+	$U/_fork\
+	$U/_open\
+	$U/_redirect\
+	$U/_exec\
+	$U/_forkexec\
+	$U/_pipe1\
+	$U/_pipe2\
+	$U/_list
+      
 
 
 ifeq ($(LAB),syscall)
